@@ -18,15 +18,16 @@ Email signup & notification
 
 
 
-# To use:
-In terminal, install Firebase CLI
+# How to use:
+
+# In terminal, install Firebase CLI
     npm install -g firebase-tools
     
-To run in local
+# To run in local
     npm run dev
 
 
-To deploy to Firebase hosting
+# To deploy to Firebase hosting
     npm run build
     firebase deploy
 
