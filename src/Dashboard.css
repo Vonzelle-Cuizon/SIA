@@ -1,0 +1,72 @@
+/* Main container: sidebar + main content side by side */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f8dc; /* Cream color */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px; /* Fixed width for sidebar */
+  background-color: #000; /* Black sidebar */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1; /* Allow the content to take up remaining space */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Stack the content vertically */
+  text-align: center; /* Center text inside the content */
+  padding: 20px; /* Padding around the content */
+  position: absolute; /* Position the content independently */
+  left: 250px; /* Offset from the left by the width of the sidebar */
+  right: 0; /* Ensure it stretches to the right edge */
+  height: 100%; /* Take full height of the screen */
+  top: -15%; /* Move the content upwards, adjust as needed */
+}
+
+/* Logo */
+.dashboard-logo {
+  width: 150px;
+  margin-bottom: 20px; /* Space below the logo */
+}
+
+/* Main title and message */
+.main-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif; /* Fancy font if available */
+}
+
+.main-content p {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.food-images {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px; /* Space between images */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.food-image {
+  width: 300px; /* Big images */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.food-image:hover {
+  transform: scale(1.05);
+}

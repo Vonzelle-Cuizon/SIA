@@ -1,0 +1,139 @@
+.reservation-container {
+  background-color: #f9f8dd;
+  height: 100vh;
+  position: relative;
+  font-family: 'Georgia', serif;
+}
+
+/* Back Button */
+.back-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* NEW wrapper for true center */
+.reservation-center-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Take full screen height */
+  text-align: center;
+  margin-left: 800px;
+}
+
+/* Title */
+.reservation-title {
+  background-color: black;
+  color: gold;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form Container */
+.reservation-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+/* Inputs */
+.reservation-form input {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Submit Button */
+.reservation-button {
+  background-color: black;
+  color: gold;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Sidebar Container */
+.sidebar {
+  background-color: #030405;  /* Dark background for a sleek look */
+  color: white;
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  z-index: 1000; /* Ensure the sidebar stays on top */
+  overflow-y: auto; /* Prevent overflow */
+}
+
+/* User Info Section */
+.user-info {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.user-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.user-info p:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-links li {
+  font-size: 18px;
+  margin: 15px 0;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  background-color: #34495e;  /* Slightly lighter shade on hover */
+  transform: translateX(5px);  /* Small right shift on hover for animation */
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #e74c3c;  /* Bright red for logout */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;  /* Darker red on hover */
+}

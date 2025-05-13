@@ -1,0 +1,118 @@
+/* Order Container */
+.order-container {
+    background-color: #f4f6f9;
+    padding: 0px 100px; /* Add padding around the container */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top, don't stretch down the page */
+    flex-direction: column;
+    margin-left: 800px;
+    margin-right: auto;
+    max-width: 1000px; /* Limit width */
+    height: 800px; /* Let it adjust based on content height */
+    margin-top: 40px;
+  }
+  
+  /* Title */
+  .order-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  
+  /* Order Form */
+  .order-form {
+    background-color: white;
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Limit form width */
+    min-height: 350px; /* Reasonable height for the form */
+    transition: transform 0.3s ease;
+  }
+  
+  .order-form:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Order Item */
+  .order-items {
+    margin-bottom: 25px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-item label {
+    font-size: 18px;
+    color: #34495e;
+    font-weight: 500;
+  }
+  
+  .order-item input {
+    width: 70px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: border 0.3s;
+  }
+  
+  .order-item input:focus {
+    border-color: #27ae60;
+    outline: none;
+  }
+  
+  .order-item span {
+    font-size: 18px;
+    color: #27ae60;
+    font-weight: 600;
+  }
+  
+  /* Order Summary */
+  .order-summary {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .order-summary p {
+    font-size: 22px;
+    color: #34495e;
+  }
+  
+  .order-summary strong {
+    color: #e74c3c;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  /* Order Button */
+  .order-button {
+    background-color: #27ae60;
+    color: white;
+    font-size: 20px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .order-button:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+  }
+  

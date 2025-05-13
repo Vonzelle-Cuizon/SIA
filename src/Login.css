@@ -1,0 +1,126 @@
+/* Page container centers everything */
+.login-container {
+  width: 100vw; /* Force full screen width */
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  background-color: #fafade;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Wrapper groups logo and box vertically */
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo image styling */
+.logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+/* Login box styling */
+.login-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  color: #222; /* Darker text color for box */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Header */
+.login-title {
+  color: #b8860b; /* A deeper goldenrod */
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center; /* Center the title */
+}
+
+/* Input styling */
+.login-box input[type="email"],
+.login-box input[type="password"],
+.login-box input[type="text"] {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Make corners consistent */
+  outline: none;
+  transition: border 0.3s;
+  box-sizing: border-box;
+  color: #b0b0b0; /* Darker input text */
+  font-size: 1rem; /* Set a consistent font size */
+  height: 50px; /* Consistent height */
+}
+
+.login-box input:focus {
+  border-color: #b8860b;
+}
+
+/* Show password checkbox styling */
+.show-password-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+/* Button styling */
+.login-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  transition: background 0.3s;
+  font-size: 1rem; /* Ensure button text is also consistent */
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+/* Register text */
+.login-register {
+  font-size: 0.85rem;
+  text-align: right;
+  color: #444; /* Dark gray for better contrast */
+}
+
+.login-register a {
+  text-decoration: none;
+  color: #b8860b;
+}
+
+/* Spacing for better form readability */
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Add spacing between form elements */
+}
+
+/* Error message styling */
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}

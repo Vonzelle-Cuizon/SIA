@@ -1,0 +1,75 @@
+.waitlist-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f8dd; /* Set the background to yellow */
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .user-info {
+    margin-bottom: 30px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .nav-links li.active {
+    font-weight: bold;
+    color: #f9f8dd; /* Make active links yellow */
+  }
+  
+  .logout-btn {
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 40px;
+    background-color: #f9f8dd; /* Set the main content background to yellow */
+  }
+  
+  .dashboard-logo {
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .waitlist-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white; /* Set the table background to yellow */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .waitlist-table th,
+  .waitlist-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .waitlist-table th {
+    background-color: #333;
+    color: white;
+  }
+  
