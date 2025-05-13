@@ -1,12 +1,19 @@
-# React + Vite
+# Frontend - React + Vite
+# Backend - Firestore DB(Cloud)
+# Hosting & Deploy - Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Restaurant Reservation System
 
-Currently, two official plugins are available:
+A web-based application for ordering food and reserving tables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Main features:
+Table Reservation
+Reservation/Waitlist Tracking
+Ordering System
+Order Tracking
+Email signup & notification
 
-## Expanding the ESLint configuration
+# link to deployment:
+    luxury-palette.web.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
